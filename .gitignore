@@ -3,3 +3,6 @@
 *.out
 *.pdf
 auto/
+*.fls
+*_latexmk
+
