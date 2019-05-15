@@ -3,7 +3,7 @@
 all: dsgvo-einverstaendnis.pdf
 
 %.pdf: %.tex
-	latexmk $<
+	latexmk -lualatex $<
 
 clean:
 	latexmk -C

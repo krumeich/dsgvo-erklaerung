@@ -5,4 +5,5 @@
 auto/
 *.fls
 *_latexmk
-
+*~
+.DS*

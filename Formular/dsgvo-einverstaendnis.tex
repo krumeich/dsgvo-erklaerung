@@ -1,7 +1,7 @@
 \documentclass[10pt,a4paper]{scrartcl}
 
 \usepackage[T1]{fontenc}
-\usepackage[german]{babel}
+\usepackage[ngerman]{babel}
 \usepackage{graphicx}
 \usepackage{paralist}
 \usepackage{fontspec} 
@@ -10,8 +10,16 @@
 \hypersetup{pdfborder={0 0 0}, breaklinks=true}
 
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text]{Candara}
-\setsansfont[Mapping=tex-text]{Futura}
+% \setmainfont{IBMPlexSans-Light}[
+%   BoldFont    = IBMPlexSans-Medium,
+%   ItalicFont  = IBMPlexSans-LightItalic,
+%   SlantedFont = IBMPlexSans-LightItalic
+% ]
+\setmainfont[Path=/System/Library/Fonts/]{Palatino.ttc}
+\setsansfont[Path=/Library/Fonts/]{Futura.ttc}
+\setmainfont{ztm-Reg.otf}
+\setsansfont{zhv-Reg.otf}
+
 
 
 \typearea{12}
@@ -48,11 +56,11 @@
 
 \thispagestyle{empty}
 
-\hfill{\Large{}Alexander Krumeich}\\
+\hfill{\textsf{\Large{}Alexander Krumeich}}\\
 \hrule
 \vspace*{2mm}
-Niehler Str.~1,\enskip{}50670~Köln\hfill{} alexander@krumeich.de\hfill{}
-\mobilnummer{}
+\textsf{Niehler Str.~1,\enskip{}50670~Köln\hfill{} alexander@krumeich.de\hfill{}
+\mobilnummer{}}
 \vspace*{5mm}
 
 % ----------------------------------------------------------------------------
@@ -63,10 +71,10 @@ Niehler Str.~1,\enskip{}50670~Köln\hfill{} alexander@krumeich.de\hfill{}
 
 
 Ich beabsichtige, als Privatperson Fotoaufnahmen der Kinder der
-Schildkrötenklasse (1b/2b) der GGS Balthasarstraße zu machen. Die Fotos sollen
-Ihnen (Eltern, Kinder, Klassenlehrerin und OGS-BetreuerInnen) als
-Erinnerungsstücke unentgeltlich zugänglich gemacht werden. Darüber hinaus finden
-die Fotos keine Verwendung.
+Schildkrötenklasse (1b/2b) und der Mäuseklasse (3b/4b) der GGS Balthasarstraße
+zu machen. Die Fotos sollen Ihnen (Eltern, Kinder, Klassenlehrerinnen und
+OGS-Betreuer\-Innen) als Erinnerungsstücke unentgeltlich zugänglich gemacht
+werden. Darüber hinaus finden die Fotos keine Verwendung.
 
 Die Fotos sollen auf meiner privaten Website \url{https://krumeich.de/} für
 einen begrenzten Zeitraum von ca. 6~Wochen passwortgeschützt abrufbar sein. Die
@@ -89,10 +97,11 @@ oder herunterlädt.
 
 \subsection*{Einwilligung des/der Personensorgeberechtigten}
 
-Mit Ihrer Unterschrift bestätigen Sie, dass Sie damit einverstanden sind, dass
-ich Ihr Kind einzeln, in Kleingruppen und im Klassenverband fotografiere und die
-Fotos wie oben beschrieben veröffentliche. Gleichzeitig bestätigen Sie, dass Sie
-mit Ihrem Kind die Veröffentlichung der Fotos besprochen haben.
+Mit Ihrer Unterschrift bestätigen Sie Ihr Einverständnis, dass ich Ihr Kind
+einzeln, in Kleingruppen und im Klassenverband fotografiere und die Fotos wie
+oben beschrieben veröffentliche. Gleichzeitig bestätigen Sie, dass Sie mit Ihrem
+Kind besprochen haben, dass es fotografiert wird und die Bilder veröffentlicht
+werden. Sie bestätigen, dass auch Ihr Kind damit einverstanden ist.
 
 Sie bestätigen ebenfalls, dass Sie selbst die Fotos und die Zugangsdaten nicht
 weiter verbreiten, in sozialen Medien publizieren oder mit Messenger-Diensten
@@ -105,25 +114,21 @@ Bitte kontaktieren Sie mich bei Rückfragen. Vielen Dank für Ihr Verständnis.
 
 \vspace{1cm}
 
-Name des Kindes: ~\hrulefill{}
-
-\vspace{1.5cm}
-
-
-
-\begin{minipage}{10cm}
-  (Bei Fotoaufnahmen minderjähriger Kinder sind die Unterschriften aller
-  Personensorgeberechtigten notwendig.)
-  \vspace{1ex}\par{}
-  Ort, Datum, Unterschrift des/der Personensorgeberechtigten\par{}
-
-\end{minipage}
+Name und Klasse des Kindes: ~\hrulefill{}
 
 
 
 \vspace{1.5cm}
 
 ~\hrulefill{}
+
+\begin{minipage}{10cm}
+  \vspace{1ex}\par{}
+  Ort, Datum, Unterschrift des/der Personensorgeberechtigten\par{}
+  \vspace{1ex}
+  (Bei Fotoaufnahmen minderjähriger Kinder sind die Unterschriften aller
+  Personensorgeberechtigten notwendig.)
+\end{minipage}
 
 
 
